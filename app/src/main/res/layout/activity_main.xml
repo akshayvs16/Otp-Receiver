@@ -8,11 +8,18 @@
     android:gravity="center"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi User Hellow"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"/>
 
     <ImageView
-        android:src="@drawable/mobile_sms"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:src="@drawable/mobile_sms" />
 
     <TextView
         android:textSize="25sp"
@@ -28,16 +35,15 @@
 
     <EditText
         android:id="@+id/editText_otp"
-        android:layout_margin="10dp"
-        android:gravity="center"
-        android:padding="15dp"
-        android:textStyle="bold"
-        android:textColor="#000"
-        android:background="#FBC02D"
-        android:hint="Enter OTP"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FBC02D"
+        android:gravity="center"
+        android:hint="Enter OTP"
+        android:padding="15dp"
+        android:textColor="#000"
+        android:textStyle="bold" />
 
 
 </LinearLayout>
